@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+nav {
+    /* border: 1px solid blue; */
+    background-color: #141414;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}}
+
+@media (min-width: 480px) {
+    nav {
+        /* border: 1px solid blue; */
+        background-color: #141414;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }}
+
+#logo {
+    /* border: 1px solid pink; */
+    height: 100%;
+    flex-basis: 40%;
+    background-image:url(images/bellbird-logo-temp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hamburger-menu {
+    /* border: 1px solid coral; */
+    box-sizing: border-box;
+    height: 50%;
+    flex-basis: 10%;
+    background-image: url(images/hamburger.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+@media (max-width: 480px) {
+#home-main-image {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    width: 100vw;
+    height: 30vh;
+    background-image: url(images/project-photo-1-temp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}}
+
+@media (min-width: 480px) {
+    #home-main-image {
+        /* border: 1px solid red; */
+        box-sizing: border-box;
+        width: 100vw;
+        height: 50vh;
+        background-image: url(images/project-photo-1-temp.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }}
+
+@media (max-width: 480px) {
+#featured-projects {
+    border: 1px solid #141414;
+    background-color: #141414;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 35vh;
+}}
+
+@media (min-width: 480px) {
+#featured-projects {
+    border: 1px solid #141414;
+    background-color: #141414;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 50vh;
+}}
+
+@media (min-width: 480px) {
+h1 {
+    font-size: 2.8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}}
+
+@media (min-width: 480px) {
+#featured-projects-container {
+    /* border: 1px solid lightblue; */
+    height: 72%;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}}
+
+#featured-project-1 {
+    /* border: 1px solid pink; */
+    background-color: white;
+    flex-basis: 45%;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#featured-project-2 {
+    /* border: 1px solid pink; */
+    background-color: white;
+    flex-basis: 45%;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+#featured-project-3 {
+    /* border: 1px solid pink; */
+    background-color: white;
+    flex-basis: 30%;
+    padding: 5px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+#featured-project-image-1 {
+    /* border: 1px solid lightgreen; */
+    height: 70%;
+    background-image: url(images/project-photo-2-temp.jpg);
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#featured-project-image-2 {
+    /* border: 1px solid lightgreen; */
+    height: 70%;
+    background-image: url(images/project-photo-3-temp.jpg);
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#featured-project-image-3 {
+    /* border: 1px solid lightgreen; */
+    height: 70%;
+    background-image: url(images/project-photo-4-temp.jpg);
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.featured-project-header {
+    /* border: 1px solid red; */
+    margin: 0;
+    margin-bottom: 5px;
+    height: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #367ac6;
+    text-align: left;
+}
+
+.featured-project-summary {
+    /* border: 1px solid orange; */
+    height: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: black;
+    display: none;
+}
+
+.featured-project-button {
+    background-color: #367ac6;
+    border-style: none;
+    height: 16%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#instagram {
+    /* border: 1px solid green; */
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 25vh;
+}
+
+#instagram-container {
+    /* border: 1px solid coral; */
+    height: 65%;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#instagram-project-1 {
+    /* border: 1px solid lightblue; */
+    flex-basis: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(images/project-photo-4-temp.jpg);
+    background-size: cover;
+}
+
+#instagram-project-2 {
+    /* border: 1px solid lightblue; */
+    flex-basis: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(images/project-photo-5-temp.jpg);
+    background-size: cover;
+}
+
+#instagram-project-3 {
+    /* border: 1px solid lightblue; */
+    flex-basis: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(images/project-photo-6-temp.jpg);
+    background-size: cover;
+}
+
+.instagram-link-box {
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 20%;
+    background-image: url(images/instagtram-glyph-neg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+}
+
+footer {
+    /* border: 1px solid orange; */
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+}
+
+#footer-container {
+    /* border: 1px solid lightgreen; */
+    width: 25vw;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#instagram-icon {
+    /* border: 1px solid pink; */
+    flex-basis: 20%;
+    height: 60%;
+    background-image: url(images/instagram-glyph.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #367ac6;
+    margin: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #367ac6;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+}
+
+.menu {
+    background-color: #141414;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    overflow-y: scroll;
+    padding: 55px 30px;
+    position: fixed;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(100%);
+    z-index: 1;
+  }
+
+  .menu-open {
+    transform: translateX(0%);
+    opacity: 0.95;
+  }
+
+  .menu a, .menu a:focus, .menu a:visited {
+    color: white;
+    display: block;
+    font-size: 30px;
+    margin: 35px auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+  #menu-close {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    background-image: url(images/close-menu.png);
+    background-size:20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  #big-image {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    width: 100vw;
+    height: 30vh;
+    background-image: url(images/project-photo-7-temp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#contact-us {
+    border: 1px solid #141414;
+    background-color: #141414;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 35vh;
+}
+
+#contact-us-form {
+    margin: 15px 25px 25px 25px;
+}
+
+#name {
+    margin-right: 10px;
+    height: 3vh;
+}
+
+#preferred-contact {
+    height: 3vh;
+    width: 40vw;
+}
+
+#query {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    height: 15vh;
+    width: 80.5vw;
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: #367ac6;
+    border: none;
+    width: 20vw;
+    height: 3.5vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+input, textarea{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
